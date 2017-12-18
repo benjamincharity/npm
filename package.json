@@ -1,20 +1,13 @@
 {
-  "name": "@semantic-release/npm",
+  "name": "@terminus/semantic-release-npm",
   "description": "Set of semantic-release plugins to publish to a npm registry",
   "version": "0.0.0-development",
   "author": "Pierre Vanduynslager (https://twitter.com/@pvdlg_)",
-  "bugs": {
-    "url": "https://github.com/semantic-release/npm/issues"
-  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
   },
-  "contributors": [
-    "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
-    "Gregor Martynus (https://twitter.com/gr2m)"
-  ],
   "dependencies": {
     "@semantic-release/error": "^2.1.0",
     "execa": "^0.8.0",
@@ -54,7 +47,6 @@
     "lib",
     "index.js"
   ],
-  "homepage": "https://github.com/semantic-release/npm#readme",
   "keywords": [
     "npm",
     "publish",
@@ -87,7 +79,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/semantic-release/npm.git"
+    "url": "https://github.com/benjamincharity/npm.git"
   },
   "scripts": {
     "cm": "git-cz",
